@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/assets/Registration/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    gap: 1em;
+    overflow: hidden;
+}
+
+img{
+    width: 20rem;
+}

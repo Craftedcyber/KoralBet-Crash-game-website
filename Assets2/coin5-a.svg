@@ -1,0 +1,34 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame">
+<g clip-path="url(#clip0_1_3376)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M0 0H30V30H0V0Z" fill="#2B2F3C"/>
+<g id="Group_3">
+<path id="Vector_2" d="M9.14062 15.1604L14.9767 5.44922V12.4992L9.14062 15.1604Z" fill="#96A0AF"/>
+<path id="Vector_3" opacity="0.6" d="M14.9767 12.4992V5.44922L20.8127 15.1604L14.9767 12.4992Z" fill="#96A0AF"/>
+<path id="Vector_4" opacity="0.5" d="M9.14062 15.1605L14.9767 12.4993V18.6154L9.14062 15.1605Z" fill="#96A0AF"/>
+<path id="Vector_5" opacity="0.25" d="M14.9767 12.4993L20.8127 15.1605L14.9767 18.6154V12.4993Z" fill="#96A0AF"/>
+<path id="Vector_6" d="M9.14062 16.2808L14.9767 24.4979V19.7357L9.14062 16.2808Z" fill="#96A0AF"/>
+<path id="Vector_7" opacity="0.6" d="M14.9767 19.7357V24.4979L20.8594 16.2808L14.9767 19.7357Z" fill="#96A0AF"/>
+</g>
+</g>
+<g id="Group_4">
+<path id="Vector_8" d="M0 0H30V30H0V0Z" fill="#E6E8FF"/>
+<g id="Group_5">
+<path id="Vector_9" opacity="0.6" d="M14.9986 12.5835L9.14062 15.1656L14.9995 18.522L20.8538 15.1656L14.9986 12.5835Z" fill="#010101"/>
+<path id="Vector_10" opacity="0.45" d="M9.14062 15.1656L14.9995 18.5221V5.74219L9.14062 15.1656Z" fill="#010101"/>
+<path id="Vector_11" opacity="0.8" d="M14.9986 5.74219V18.5221L20.8548 15.1656L14.9977 5.74219H14.9986Z" fill="#010101"/>
+<path id="Vector_12" opacity="0.45" d="M9.14062 16.2424L14.9995 24.2449V19.5979L9.14062 16.2424Z" fill="#010101"/>
+<path id="Vector_13" opacity="0.8" d="M14.9985 19.5998V24.2449L20.8593 16.2424L14.9985 19.5989V19.5998Z" fill="#010101"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_3376">
+<rect width="30" height="30" rx="15" fill="white"/>
+</clipPath>
+</defs>
+</svg>

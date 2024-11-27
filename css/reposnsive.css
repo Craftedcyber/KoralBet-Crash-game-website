@@ -1,0 +1,65 @@
+/* Container: Replicating `d-flex` and `row` */
+.flex-container {
+    columns: 3;
+    margin: 0; 
+    column-fill: balance;
+    column-span: all;
+    
+}
+
+.flex-item{ 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px -5px;
+    column-span: all;
+    max-width: 100%; 
+    box-sizing: border-box; 
+    padding: 0 10px; 
+    column-fill: balance;
+}
+
+
+
+
+.flex-container :first-child {
+    /* width: calc(28.5% - 10px);  */
+
+} 
+@media (min-width: 576px) {
+    .flex-container{
+        columns: 4;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .flex-container{
+        columns: 5;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .flex-container{
+        columns: 7;
+    }
+    }
+
+
+
+@media (min-width: 1200px) {
+    .flex-container{
+        columns: 7;
+    }
+}
+
+/* General Styling for Game Items */
+/* .game-items {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */

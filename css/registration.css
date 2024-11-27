@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.warning{
+    color: red;
+    display: none;
+}
+form{
+    background-image: url(/assets/Registration/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+   padding: 1rem 2rem;
+    /* justify-content: space-between; */
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    gap: 1em;
+    overflow: hidden;
+    font-size: 12px;
+}
+#name{
+    margin-top: 1em;
+}
+.check{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+form #input-container{
+    display: flex;
+    /* gap: 1em; */
+    flex-direction: column;
+    color: #fff;
+}
+.logo{
+    display: grid;
+    width: 100%;
+    place-items: center;
+}
+/* Style the input field */
+form input[type="text"] {
+    width: 100%;
+    background-color: #20263C;
+    padding: 12px 12px 12px 20px; /* Extra padding on left for the icon */
+    font-size: 16px;
+    border: .5px solid #0f1525;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+/* Placeholder text style */
+form input[type="text"]::placeholder {
+    color: #5e6786;
+}
+
+
+form .input-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    position: relative;
+    max-width: 100%;
+    max-height: 4rem;
+}
+.pass-wvg{
+    display: flex;
+    align-items: center;
+    background-color: #20263C;
+    padding: 6px;
+    border: 1px solid #0f1525;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+#email{
+    text-align: left;
+}
+#password, #email{
+    background-color: none;
+    border: none;
+}
+.agree{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    color: #ffffff;
+}
+form button{
+    height: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 1.4rem 1em;
+    text-align: center;
+    color: #ffffff;
+}
+button > p{
+    text-align: center;
+    margin-right: 6rem;
+}
+.register{
+    display: grid;
+    gap: 2rem;
+}
+.under{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #ffffff;
+}
+.under > a{
+    color: #fff;
+}
+.svgs{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+#gehgeh{
+    color: #5e6786;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+@media screen and (min-width:600px) {
+    body{
+        display: grid;
+        place-items: center;
+    }
+    form{
+        width: 22rem;
+    }
+    
+}
